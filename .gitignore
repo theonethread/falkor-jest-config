@@ -1,0 +1,9 @@
+.DS_Store
+.localized
+
+**/node_modules
+.env
+.debug
+.tmp
+.doc
+dist

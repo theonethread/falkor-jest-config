@@ -1,0 +1,66 @@
+{
+  "name": "@falkor/falkor-jest-config",
+  "version": "0.0.1",
+  "description": "Shared Jest configuration module to be used with the Falkor Framework",
+  "author": {
+    "name": "Barnabas Bucsy",
+    "url": "https://github.com/theonethread"
+  },
+  "contributors": [
+    {
+      "name": "Barnabas Bucsy",
+      "url": "https://github.com/theonethread"
+    }
+  ],
+  "license": "MIT",
+  "private": true,
+  "homepage": "https://github.com/theonethread/falkor-jest-config/#readme",
+  "repository": "github:theonethread/falkor-jest-config",
+  "bugs": "https://github.com/theonethread/falkor-jest-config/issues",
+  "funding": [
+    {
+      "type": "ko-fi",
+      "url": "https://ko-fi.com/falkor_framework"
+    },
+    {
+      "type": "individual",
+      "url": "https://www.linkedin.com/in/barnabas-bucsy"
+    }
+  ],
+  "keywords": [
+    "falkor",
+    "jest ",
+    "config"
+  ],
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "engines": {
+    "node": ">=18",
+    "npm": ">=8"
+  },
+  "engineStrict": true,
+  "main": "jest.config.ts",
+  "scripts": {
+    "jest": "jest --verbose",
+    "jest-watch": "jest --watch"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "5.16.5",
+    "jest": "29.5.0",
+    "jest-environment-jsdom": "29.5.0",
+    "selenium-webdriver": "4.9.2",
+    "chromedriver": "114.0.1",
+    "jest-watch-typeahead": "2.2.2",
+    "ts-jest": "29.1.0",
+    "ts-node": "10.9.1"
+  },
+  "devDependencies": {
+    "@types/selenium-webdriver": "4.1.15",
+    "@types/chromedriver": "81.0.1",
+    "@falkor/falkor-cspell-config": "0.0.1",
+    "@falkor/falkor-prettier-config": "0.0.1"
+  }
+}
