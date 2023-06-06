@@ -43,6 +43,10 @@
   },
   "engineStrict": true,
   "main": "jest.config.ts",
+  "files": [
+    "jest.config.ts",
+    "env"
+  ],
   "scripts": {
     "jest": "jest --verbose",
     "jest-watch": "jest --watch"
